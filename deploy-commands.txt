@@ -1,0 +1,27 @@
+## Git Commands for Deployment
+
+# Initialize git repository
+git init
+
+# Add all files
+git add .
+
+# Commit files
+git commit -m "Initial commit - Vrundavan Society Website"
+
+# Add GitHub repository (replace with your repo URL)
+git remote add origin https://github.com/yourusername/vrundavan-society-website.git
+
+# Push to GitHub
+git push -u origin main
+
+## After pushing to GitHub:
+1. Go to your repository on GitHub
+2. Click Settings tab
+3. Scroll to Pages section
+4. Select "Deploy from a branch"
+5. Choose "main" branch
+6. Save
+
+Your website will be live at:
+https://yourusername.github.io/vrundavan-society-website

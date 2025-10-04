@@ -1,0 +1,7 @@
+# Update GitHub repository with latest changes
+
+git add .
+git commit -m "Updated website files"
+git push origin main
+
+# Your website will auto-update in 1-2 minutes
